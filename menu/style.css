@@ -1,0 +1,128 @@
+.container{
+    display: grid;
+    position: relative;
+    top: 130px;
+    width: 1200px;
+    box-sizing: border-box;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+.menu {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 40px;
+}
+.tabs{
+    margin-top: 40px;
+}
+#ficha_tecnica{
+    margin-left: 20px;
+}
+#avaliacoes{
+    margin-left: 20px;
+}
+.menu > div > h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+#conteudo_descricao{
+    display: none;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+#conteudo_ficha_tecnica{
+   display: none;
+}
+.informacoes{
+    display: flex;
+    justify-content: center;
+}
+.grandeza > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 40px;
+}
+.unidade > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 40px;
+}
+.grandeza{
+    margin-right: 25px;
+}
+.unidade{
+    margin-left: 25px;
+}
+.informacoes_avaliacao{
+    background-color: #0e5690;
+    color: #ffffff;
+    width: 250px;
+    height: 500px;
+}
+.nota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.estrelas{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.quant_avaliacoes{
+    display: flex;
+    justify-content: center;
+}
+.quant_avaliacoes > h3{
+    margin-top: 3px;
+    margin-bottom: 70px;
+}
+.nota > h1{
+    margin-bottom: 3px;
+}
+#conteudo_avaliacao > div{
+    display: flex;
+}
+.feedback > div{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.barra{
+    margin-top: 5px;
+    width: 220px;
+    height: 10px;
+    background-color: #1570a1;
+}
+.quant_estrelas{
+    display: flex;
+    justify-content: space-between;
+}
+.quant_estrelas > div > h3{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+.avaliar{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.avaliar > div > h3{
+    margin-left: 20px;
+}

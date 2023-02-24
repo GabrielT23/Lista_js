@@ -1,0 +1,23 @@
+.sessão {
+    margin-left: 100px;
+    display: flex;
+} 
+
+.conteudo {
+    display: flex;
+}
+
+.avaliação {
+    display: grid;
+}
+.informações{
+    margin-left: 50px;
+}
+.estrelas {
+    margin-top: 100px;
+    margin-left: 260px;
+}
+.img_secundarias{
+    margin-top: 20px;
+    margin-left: 250px;
+}

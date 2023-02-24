@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(129, 255, 182);
+}
+
+.container {
+    position: relative;
+    display: grid;
+    top: 130px;
+    box-sizing: border-box;
+    width: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 20px;
+}
